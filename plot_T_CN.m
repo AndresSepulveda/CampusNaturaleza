@@ -19,21 +19,33 @@ temp_d=ptod(:,8);
 
 subplot(4,1,1)
 plot(tiempo_a,temp_a,'-x')
+title('Punto A')
+xlabel('Fecha 2024')
+ylabel('Temperatura [ C]') 
 datetick('x',6)
 ylim([10 17])
 
 subplot(4,1,2)
 plot(tiempo_b,temp_b,'-x')
+title('Punto B')
+xlabel('Fecha 2024')
+ylabel('Temperatura [ C]') 
 datetick('x',6)
 ylim([10 17])
 
 subplot(4,1,3)
 plot(tiempo_c,temp_c,'-x')
+title('Punto C')
+xlabel('Fecha 2024')
+ylabel('Temperatura [ C]') 
 datetick('x',6)
 ylim([10 17])
 
 subplot(4,1,4)
 plot(tiempo_d,temp_d,'-x')
+title('Punto D')
+xlabel('Fecha 2024')
+ylabel('Temperatura [ C]') 
 datetick('x',6)
 ylim([10 17])
 
